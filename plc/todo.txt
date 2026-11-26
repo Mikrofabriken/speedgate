@@ -1,0 +1,5 @@
+* After rescue services force open has been deactivated, gate should have "target-closed". Currently: gate will stay at current position (which can be permanently open).
+* Inform Maxim about coil 8 (warning gate obstructed) and coil 9 (light control).
+* Request Maxim's bot to reset holding register 1 at 00:00 (midnight) and eventually publish stats for last 24 hours (amount of requests + passages).
+* Input register 6 and 7 (value of user requested VFD register) should clear if user requested register is set to 0. Now, the value is not cleared and stays forever.
+* "close after pass" 10-second-timer should modify value of holding register 0 (not be a separate timer). Gate closing time will then always be available via server.

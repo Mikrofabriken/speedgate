@@ -1,0 +1,46 @@
+ I have created a copy of the last version of the plc program at the following location: /run/media/engineer/mediadisk/documents/projects/uf_gate-control/new-gate-control-system/plc-programming/main-plc_2026-11-19_simulate-faults/main-plc_2026-11-19_simulate-faults.ino. Add the following functionality the the new version: A user should be able to activate and simulate all faults via serial terminal.
+
+  Ran 1 shell command
+
+It's identical to the current 11-19 version, coil 8 included. I'll apply the same fault simulation design as before: each fault cause is injected where the real cause is detected.
+
+  Ran 2 shell commands
+
+I've added fault simulation to main-plc_2026-11-19_simulate-faults.ino. You can now simulate any of the 7 faults on either gate from the serial terminal, and the gate detects, handles and resets them like real faults. The copy was identical to the current 11-19 version (coil 8 included) before I changed it. It compiles with no warnings (38600 bytes flash, 3040 bytes RAM); I haven't tested it on the PLC.
+
+Serial commands (115200 baud, not case sensitive)
+
+┌─────────────────────┬─────────────────────────────────────────────────────────────────┐
+│       Command       │                             Effect                              │
+├─────────────────────┼─────────────────────────────────────────────────────────────────┤
+│ FAULT               │ Shows each gate's state, fault code and active simulated causes │
+├─────────────────────┼─────────────────────────────────────────────────────────────────┤
+│ FAULT <gate> <code> │ Simulates fault 1–7 on gate 1 or 2, e.g. FAULT 2 5              │
+├─────────────────────┼─────────────────────────────────────────────────────────────────┤
+│ FAULT <gate> CLEAR  │ Removes the simulated causes for one gate                       │
+├─────────────────────┼─────────────────────────────────────────────────────────────────┤
+│ FAULT CLEAR         │ Removes the simulated causes for both gates                     │
+└─────────────────────┴─────────────────────────────────────────────────────────────────┘
+
+CLEAR only removes the simulated cause, like repairing the real problem. The latched fault still has to be reset with coil 7 or force open.
+
+┌────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────┐
+│        Code        │                                      Simulated cause                                       │                        Reset                         │
+├────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+│ 1 VFD              │ VFD status ETA bit 3 is set, detected at the next status read                              │ The VFD fault reset command sent at coil 7 clears it │
+├────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+│ 2 VFD comm         │ All RTU requests to that VFD fail with no bus traffic, so the fault comes after 5 failures │ Fails until you send FAULT CLEAR                     │
+├────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+│ 5 Position sensors │ The sensor combination counts as invalid, so the fault comes after 1 s                     │ Fails until you send FAULT CLEAR                     │
+├────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+│ 3, 4, 6, 7         │ One-off event, triggered on the next loop (not if the gate is already in fault)            │ Works straight away                                  │
+└────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────┘
+
+With codes 1, 2 and 5 you can test a failed reset by sending it while the cause is still active.
+
+
+Differences from a real fault
+
+- Code 1: the real VFD isn't actually faulted, so the motor ramps down under PLC control. A real VFD trip would let it freewheel.
+- Code 2: the real VFD also stops receiving Modbus traffic, so it may trip on its own communication timeout. If it does, you'll get a VFD fault after FAULT CLEAR, which the next coil 7 reset clears. A gate that is moving keeps running for about 1 s until STO cuts it, the same as a real cable break.
+- Code 2 with debug on: the "Failed to read Modbus RTU register" messages show an old library error text.

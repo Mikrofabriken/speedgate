@@ -1,0 +1,102 @@
+Yesterday, i ran the full gate system and PLC with the program /run/media/engineer/mediadisk/documents/projects/uf_gate-control/new-gate-control-system/plc-programming/main-plc_2026-11-07/main-plc_2026-11-07.ino. There were intermittent issues with RS485 communication with VFD for gate 2. Create a separate Arduino sketch for the PLC in the following folder: /run/media/engineer/mediadisk/documents/projects/uf_gate-control/new-gate-control-system/plc-programming/test-rs485_2026-11-08. The purpose of the sketch/program is to evaluate and troubleshoot RS485 communication with VFDs for gate 1 and gate 2. The program should provide detailed troubleshooting information via Serial communication (via Controllino USB port) and help me verify if there is an actual issue with the RS485 bus or if the issue is related to software.
+
+  Ran 6 shell commands
+
+Studying the Modbus library internals first (timeouts, buffer flushing, frame gaps), so the test sketch can separate library and timing problems from bus problems.
+
+  Ran 3 shell commands
+
+Writing the test sketch now.
+
+● Write(/run/media/engineer/mediadisk/documents/projects/uf_gate-control/new-gate-control-system/plc-programming/test-rs485_2026-11-08/test-rs485_2026-11-08.ino)
+Wrote 1467 lines to /run/media/engineer/mediadisk/documents/projects/uf_gate-control/new-gate-control-system/plc-programming/test-rs485_2026-11-08/test-rs485_2026-11-08.ino
+/*
+  RS485 / MODBUS RTU TEST PROGRAM FOR THE GATE PLC
+  Hardware: Controllino Maxi (SKU 100.100.00)
+  Bus: RS485 on Serial3 (DE pin 75, /RE pin 76), Modbus RTU 19200 baud 8E1.
+  Devices: Schneider ATV320 VFD gate 1 (address 1), gate 2 (address 2).
+
+  PURPOSE
+  Find out if intermittent Modbus RTU errors seen with the main program are
+  caused by the RS485 bus (wiring, termination, noise, VFD settings) or by
+  software (library behaviour, frame timing).
+… +1457 lines
+
+  Ran 1 shell command
+
+Compiles. Fixing the two sign-comparison warnings (the CRC one matters on AVR's 16-bit int).
+
+  Ran 1 shell command
+
+I've written the test sketch plc-programming/test-rs485_2026-11-08/test-rs485_2026-11-08.ino. It compiles with no errors or warnings (36 kB flash, 40 % RAM), but I haven't run it on the PLC.
+
+How it separates bus problems from software problems
+
+It polls the VFDs with the same requests and 200 ms timeout as the main program, and counts every result per VFD. It talks to the VFDs in two ways:
+- LIB mode uses the ArduinoModbus library exactly as the main program does.
+- RAW mode uses its own Modbus RTU code that records every received byte with timing. It sorts each error as:
+  - no answer;
+  - late answer (arrived after the timeout);
+  - missing bytes;
+  - CRC error;
+  - wrong address;
+  - exception;
+  - echo;
+  - leftover bytes before a request;
+  - bytes on an idle bus.
+
+AUTO runs six steps and prints a summary table with observations:
+
+┌──────┬──────┬────────────────────────┬────────────┬─────────────────────────────────────────────────────┐
+│ Step │ Mode │ Pause between requests │    VFDs    │                    What it shows                    │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 1    │ LIB  │ none                   │ both       │ The main program's behaviour                        │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 2    │ RAW  │ none                   │ both       │ Same timing, with byte-level detail                 │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 3    │ RAW  │ 5 ms                   │ both       │ Whether a pause between requests removes the errors │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 4    │ RAW  │ 5 ms                   │ VFD 1 only │ Whether VFD 1 has errors on its own                 │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 5    │ RAW  │ 5 ms                   │ VFD 2 only │ Whether VFD 2 has errors on its own                 │
+├──────┼──────┼────────────────────────┼────────────┼─────────────────────────────────────────────────────┤
+│ 6    │ LIB  │ 5 ms                   │ both       │ The library with a pause added                      │
+└──────┴──────┴────────────────────────┴────────────┴─────────────────────────────────────────────────────┘
+
+How to read the results:
+
+┌───────────────────────────────────────────────────┬────────────────────────────────────────────────┐
+│                    Errors seen                    │                  Likely cause                  │
+├───────────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ Only in steps 1–2                                 │ Frame timing (software)                        │
+├───────────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ Only in LIB steps                                 │ Library behaviour (software)                   │
+├───────────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ In step 5                                         │ VFD 2's bus segment or settings (hardware)     │
+├───────────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ Missing bytes, CRC errors or bytes on an idle bus │ Physical layer: termination, bias, shield, EMC │
+└───────────────────────────────────────────────────┴────────────────────────────────────────────────┘
+
+Safety: the E-STOP relays R8/R9 stay off, so Safe Torque Off is active the whole time. The sketch only reads registers unless you send WRITES ON, which writes the same stop command the main program sends at rest.
+
+Procedure
+
+Use a serial monitor at 115200 baud.
+1. INFO: status, last fault (LFt) and scanner registers of both VFDs.
+2. SCAN: checks that only addresses 1 and 2 answer.
+3. AUTO 1000: the comparison test. Each step takes roughly 2–3 minutes at the default 100 ms cycle.
+4. LISTEN 10: with polling paused, nothing should arrive on the bus.
+5. On each VFD's display, check the Modbus CRC error counter. On the ATV320 it should be under [Communication map] → [Modbus network diag]; menu names may differ by firmware.
+
+HELP lists the manual settings: mode, VFD, order, gap, timeout and verbosity. STATS prints the full statistics, including how often 5 errors in a row happened. That is the point where the main program would latch FAULT_VFD_COMM.
+
+Possible software causes in the main program
+
+While checking how the library handles errors, I found three things in the main program that could cause intermittent errors that look like bus faults. The test will confirm or rule them out; I haven't changed the main program.
+1. No pause between requests. The library sends the next request as soon as the previous answer arrives. Gate 2's read follows gate 1's traffic directly in the same loop. If the pause is shorter than the Modbus minimum (about 2 ms at 19200 baud), a VFD can merge two frames and ignore the request. Steps 1/2 compared with steps 3/6 test this.
+2. Leftover bytes after a timeout aren't cleared. The library only clears its receive buffer after CRC or data errors. If a VFD answers after the timeout, those bytes are read as the answer to the next request, which may be to the other VFD. The error then counts against the wrong gate. On these errors the library also blocks for another 200 ms before clearing the buffer. The "leftover" and "late" counters show this.
+3. clearModbusRtuBuffer() doesn't do what its name says. It empties the library's buffer of decoded values, not the serial receive buffer, so it doesn't remove leftover bytes.
+
+One limit: the motors don't run during this test. If every step comes out clean, the most likely remaining cause is motor/VFD EMC while the gates move. The next step would then be to log errors with the main program in DEBUG mode during operation.
+
+Send me the AUTO summary output and I can interpret it and propose a fix for the main program.

@@ -1,0 +1,9 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-16042021-041767";"";
+"REFERENCE";"ATV320U04M2C";"";
+"TraceParts.PartTitle";"ATV320 0,37kW 200V 1ph compact control variable speed drive";"";
+"TraceParts.InstanceId";"90-16042021-0417672N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Schneider Electric";"";
+"DESIGN";"ATV320 0,37kW 200V 1ph compact control variable speed drive";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TraceParts.PartLanguage";"en";"";

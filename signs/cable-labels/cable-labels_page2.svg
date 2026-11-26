@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="cable-labels_page2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.75024447"
+     inkscape:cx="425.86119"
+     inkscape:cy="443.18887"
+     inkscape:window-width="2556"
+     inkscape:window-height="1400"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="outlines"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g106"
+       transform="translate(1.4133333e-6,23.812501)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect102"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle102"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle103"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text104"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.1;font-size:6.35px"
+           x="37.011246"
+           y="29.086275"
+           id="tspan104">PROXIMITY SENSOR<tspan
+   id="tspan103"
+   style="stroke-width:0.1;font-size:6.35px" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text106"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan193">G1_POS-PRE-OPEN</tspan></text>
+    </g>
+    <g
+       id="g110"
+       transform="translate(86.058337,23.812501)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect106"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle106"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle107"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text108"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan108">PROXIMITY SENSOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text110"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan194">G2_POS-PRE-OPEN</tspan></text>
+    </g>
+    <g
+       id="g122"
+       transform="translate(1.4133333e-6,44.979169)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect118"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle118"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle119"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text120"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan120">PROXIMITY SENSOR<tspan
+   id="tspan119"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text122"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan197">G1_POS-PRE-CLOSED</tspan></text>
+    </g>
+    <g
+       id="g126"
+       transform="translate(86.058337,44.979169)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect122"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle122"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle123"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text124"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan124">PROXIMITY SENSOR<tspan
+   id="tspan123"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text126"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan198">G2_POS-PRE-CLOSED</tspan></text>
+    </g>
+    <g
+       id="g186"
+       transform="translate(1.4133333e-6,235.47926)" />
+    <g
+       id="g33"
+       transform="translate(1.4133333e-6,66.145841)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect30"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle30"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle31"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text32"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan32">PROXIMITY SENSOR<tspan
+   id="tspan31"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text33"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan33">G1_POS-PRE-OPEN</tspan></text>
+    </g>
+    <g
+       id="g35"
+       transform="translate(86.058337,66.145841)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect33"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle33"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle34"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text34"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan34">PROXIMITY SENSOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text35"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan35">G2_POS-PRE-OPEN</tspan></text>
+    </g>
+    <g
+       id="g44"
+       transform="translate(1.4133333e-6,87.312509)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect41"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle41"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle42"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text43"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan43">PROXIMITY SENSOR<tspan
+   id="tspan42"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text44"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan44">G1_POS-PRE-CLOSED</tspan></text>
+    </g>
+    <g
+       id="g47"
+       transform="translate(86.058337,87.312509)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect44"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.772503" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle44"
+         cx="29.762495"
+         cy="29.722504"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle45"
+         cx="94.179169"
+         cy="29.722504"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="29.086275"
+         id="text46"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;stroke-width:0.1"
+           x="37.011246"
+           y="29.086275"
+           id="tspan46">PROXIMITY SENSOR<tspan
+   id="tspan45"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.900658"
+         y="35.284527"
+         id="text47"
+         transform="translate(0,-2.6458334)"><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.1"
+           x="36.900658"
+           y="35.284527"
+           id="tspan47">G2_POS-PRE-CLOSED</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(1.4133333e-6,171.97922)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="-43.727501" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1"
+         cx="29.762495"
+         cy="-33.777496"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2"
+         cx="94.179169"
+         cy="-33.777496"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="36.291492"
+         y="-38.776371"
+         id="text5"><tspan
+           sodipodi:role="line"
+           style="font-size:3.88056px;stroke-width:0.1"
+           x="36.291492"
+           y="-38.776371"
+           id="tspan5">TERMINATION RESISTOR (130 Ω)</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.88056px;stroke-width:0.1"
+           x="36.291492"
+           y="-34.507755"
+           id="tspan6">+ CAPACITOR (1 nF) INTEGRATED</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.88056px;stroke-width:0.1"
+           x="36.291492"
+           y="-30.239138"
+           id="tspan7">IN CABLE (UNDER HEAT SHRINK).</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.88056px;stroke-width:0.1"
+           x="36.291492"
+           y="-25.970522"
+           id="tspan8">SEE WIRING DIAGRAM.</tspan></text>
+      <g
+         id="g25-3"
+         transform="translate(3e-7,-42.26684)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2-5"
+           width="84.900002"
+           height="19.9"
+           x="19.52083"
+           y="19.772503" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="path25-6"
+           cx="29.762495"
+           cy="29.722504"
+           r="4.9499998" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle25-2"
+           cx="94.179169"
+           cy="29.722504"
+           r="4.9499998" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="37.011246"
+           y="29.086275"
+           id="text1-9"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:6.35px;stroke-width:0.1"
+             x="37.011246"
+             y="29.086275"
+             id="tspan2-1">PROXIMITY SENSOR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="36.900658"
+           y="35.284527"
+           id="text96-2"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:5.29167px;stroke-width:0.1"
+             x="36.900658"
+             y="35.284527"
+             id="tspan191-7">G1_POS-OPEN-CLOSED</tspan></text>
+      </g>
+      <g
+         id="g106-0"
+         transform="translate(3e-7,-21.100172)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect102-9"
+           width="84.900002"
+           height="19.9"
+           x="19.52083"
+           y="19.772503" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle102-3"
+           cx="29.762495"
+           cy="29.722504"
+           r="4.9499998" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle103-6"
+           cx="94.179169"
+           cy="29.722504"
+           r="4.9499998" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="37.011246"
+           y="29.086275"
+           id="text104-0"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:6.35px;stroke-width:0.1"
+             x="37.011246"
+             y="29.086275"
+             id="tspan104-6">PROXIMITY SENSOR<tspan
+   id="tspan103-2"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="36.900658"
+           y="35.284527"
+           id="text106-6"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:5.29167px;stroke-width:0.1"
+             x="36.900658"
+             y="35.284527"
+             id="tspan193-1">G2_POS-OPEN-CLOSED</tspan></text>
+      </g>
+      <g
+         id="g20"
+         transform="translate(86.254171,-42.26684)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect18"
+           width="84.900002"
+           height="19.9"
+           x="19.52083"
+           y="19.772503" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle18"
+           cx="29.762495"
+           cy="29.722504"
+           r="4.9499998" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle19"
+           cx="94.179169"
+           cy="29.722504"
+           r="4.9499998" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="37.011246"
+           y="29.086275"
+           id="text19"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:6.35px;stroke-width:0.1"
+             x="37.011246"
+             y="29.086275"
+             id="tspan19">PROXIMITY SENSOR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="36.900658"
+           y="35.284527"
+           id="text20"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:5.29167px;stroke-width:0.1"
+             x="36.900658"
+             y="35.284527"
+             id="tspan20">G1_POS-OPEN-CLOSED</tspan></text>
+      </g>
+      <g
+         id="g23"
+         transform="translate(86.254171,-21.100172)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect20"
+           width="84.900002"
+           height="19.9"
+           x="19.52083"
+           y="19.772503" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle20"
+           cx="29.762495"
+           cy="29.722504"
+           r="4.9499998" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           id="circle21"
+           cx="94.179169"
+           cy="29.722504"
+           r="4.9499998" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="37.011246"
+           y="29.086275"
+           id="text22"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:6.35px;stroke-width:0.1"
+             x="37.011246"
+             y="29.086275"
+             id="tspan22">PROXIMITY SENSOR<tspan
+   id="tspan21"
+   style="font-size:6.35px;stroke-width:0.1" /></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+           x="36.900658"
+           y="35.284527"
+           id="text23"
+           transform="translate(0,-2.6458334)"><tspan
+             sodipodi:role="line"
+             style="font-size:5.29167px;stroke-width:0.1"
+             x="36.900658"
+             y="35.284527"
+             id="tspan23">G2_POS-OPEN-CLOSED</tspan></text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect110-7"
+         width="84.900002"
+         height="19.9"
+         x="19.52083"
+         y="19.839006" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle110-9"
+         cx="29.762493"
+         cy="29.789015"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle111-2"
+         cx="94.179161"
+         cy="29.789015"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.58611px;line-height:1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.011246"
+         y="23.861111"
+         id="text112-0"><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="37.011246"
+           y="23.861111"
+           id="tspan3">LAN KABEL</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="37.011246"
+           y="28.447222"
+           id="tspan11">TILL VIKGRIND STYRDATOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.58611px;line-height:1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="37.023647"
+         y="33.915291"
+         id="text16"><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="37.023647"
+           y="33.915291"
+           id="tspan15">LAN CABLE</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.52778px;line-height:1;stroke-width:0.1"
+           x="37.023647"
+           y="38.5014"
+           id="tspan16">TO SPEED GATE PLC CONTROLLER</tspan></text>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="M 36.405658,29.791713 H 87.536005"
+         id="path18" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect23"
+         width="84.900002"
+         height="19.9"
+         x="105.77496"
+         y="19.839006" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle23"
+         cx="116.01664"
+         cy="29.789015"
+         r="4.9499998" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="circle24-2"
+         cx="180.43346"
+         cy="29.789015"
+         r="4.9499998" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.58611px;line-height:1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="123.26537"
+         y="23.861111"
+         id="text25"><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="123.26537"
+           y="23.861111"
+           id="tspan24">LAN KABEL</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="123.26537"
+           y="28.447222"
+           id="tspan25">TILL VIKGRIND STYRDATOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.58611px;line-height:1;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;fill:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="123.2778"
+         y="33.915291"
+         id="text27-3"><tspan
+           sodipodi:role="line"
+           style="font-size:4.58611px;line-height:1;stroke-width:0.1"
+           x="123.2778"
+           y="33.915291"
+           id="tspan26-7">LAN CABLE</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.52778px;line-height:1;stroke-width:0.1"
+           x="123.2778"
+           y="38.5014"
+           id="tspan27-5">TO SPEED GATE PLC CONTROLLER</tspan></text>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="M 122.65982,29.791713 H 173.7902"
+         id="path27" />
+    </g>
+  </g>
+</svg>

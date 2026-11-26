@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="front-panel.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.575"
+     inkscape:cx="-70.434783"
+     inkscape:cy="473.91304"
+     inkscape:window-width="2556"
+     inkscape:window-height="1400"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="enclosure-and-weather-protection"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="display:none;fill:none;stroke:#000000;stroke-width:0.1"
+       d="M 66.160579,224.66787 H 143.83942"
+       id="path4"
+       inkscape:label="line" />
+    <path
+       style="display:none;fill:none;stroke:#000000;stroke-width:0.1"
+       d="M 66.160579,183.66787 H 143.83942"
+       id="path2"
+       inkscape:label="line" />
+    <path
+       style="display:none;fill:none;stroke:#000000;stroke-width:0.1"
+       d="M 66.160579,265.66787 H 143.83942"
+       id="path3"
+       inkscape:label="line" />
+    <path
+       style="display:none;fill:none;stroke:#000000;stroke-width:0.1"
+       d="M 97.910581,149.76787 H 175.58944"
+       id="path7"
+       inkscape:label="line" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0999992"
+       id="rect1"
+       width="102.9"
+       height="121.9"
+       x="53.549999"
+       y="179.66801"
+       inkscape:label="weather-protection" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.0999999"
+       id="path1"
+       cx="105"
+       cy="213.56802"
+       r="2.45"
+       inkscape:label="5 mm mounting hole" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.0999999"
+       id="circle1"
+       cx="105"
+       cy="295.56796"
+       r="2.45"
+       inkscape:label="5 mm mounting hole" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.0999999;stroke-dasharray:0.4, 0.0999999;stroke-dashoffset:0"
+       id="circle3"
+       cx="105.00001"
+       cy="213.56802"
+       r="4.9499998"
+       inkscape:label="10 mm hole cutout" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.0999999;stroke-dasharray:0.4, 0.0999999;stroke-dashoffset:0"
+       id="circle4"
+       cx="105.00001"
+       cy="295.56796"
+       r="4.9499998"
+       inkscape:label="10 mm hole cutout" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0999992"
+       id="rect4"
+       width="74.900002"
+       height="109.9"
+       x="67.550003"
+       y="199.61801"
+       rx="5"
+       ry="5"
+       inkscape:label="enclosure" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text">
+    <g
+       id="g7"
+       transform="matrix(0.88234929,0,0,0.88234929,12.353325,63.427199)"
+       style="stroke-width:1.13334"
+       inkscape:label="red-box">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.113334;stroke-dasharray:0.453335, 0.113333;stroke-dashoffset:0"
+         id="rect5"
+         width="170"
+         height="81.300003"
+         x="20.000002"
+         y="-48.331051"
+         inkscape:label="background" />
+      <text
+         xml:space="preserve"
+         style="font-size:33.8886px;line-height:1;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre-wrap;fill:none;stroke:#000000;stroke-width:0.113334;stroke-dasharray:0.453335, 0.113333;stroke-dashoffset:0"
+         x="104.30502"
+         y="-11.155954"
+         id="text4"
+         inkscape:label="text4"><tspan
+           sodipodi:role="line"
+           style="font-size:33.8886px;line-height:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.113334"
+           x="104.30502"
+           y="-11.155954"
+           id="tspan5">NÖDSTOPP</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:33.8886px;line-height:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.113334"
+           x="104.30502"
+           y="22.732645"
+           id="tspan3">GRIND</tspan></text>
+    </g>
+    <g
+       id="g11"
+       inkscape:label="yellow-box"
+       transform="translate(0,13.608158)">
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.0999993;stroke-dasharray:0.4, 0.0999984;stroke-dashoffset:0"
+         id="rect3"
+         width="150"
+         height="81.550003"
+         x="30.000002"
+         y="78.909172"
+         inkscape:label="background-yellow" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke-width:0.1;stroke-dasharray:0.4, 0.1"
+         id="rect9"
+         width="132.32675"
+         height="67.973778"
+         x="38.836624"
+         y="90.114899" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre-wrap;shape-inside:url(#rect9);fill:#afe9af;fill-opacity:1;stroke-width:0.1;stroke-dasharray:0.4, 0.0999998"
+         x="6.672101"
+         y="-62.80978"
+         id="text8"
+         transform="translate(-0.01653456,-2.3373497)"><tspan
+           x="38.835938"
+           y="96.888571"
+           id="tspan9"><tspan
+             style="font-weight:bold;fill:#000000"
+             id="tspan6">OBS!!</tspan><tspan
+             dx="0 6.7989759 0 0 0 0 0 0 0 0 6.798974 0 0 0 0 0 6.7989664"
+             style="fill:#000000"
+             id="tspan8"> NÖDSTOPP SKALL ENDAST </tspan></tspan><tspan
+           x="38.835938"
+           y="106.20191"
+           id="tspan13"><tspan
+             style="fill:#000000"
+             id="tspan10">ANVÄNDAS VID </tspan><tspan
+             style="font-weight:bold;fill:#000000"
+             id="tspan11">NÖDSITUATION.
+</tspan></tspan><tspan
+           x="38.835938"
+           y="115.51525"
+           id="tspan15"><tspan
+             dx="0 0 0 0 0 0 0 0 3.6419573 0 0 0 3.6419573 0 0 0 0 0 0 3.6419573 0 0 0 0 0 0 3.6419573"
+             style="fill:#000000"
+             id="tspan14">GRINDEN FÅR ENDAST STYRAS VIA </tspan></tspan><tspan
+           x="38.835938"
+           y="124.82859"
+           id="tspan17"><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 1.4502727"
+             style="fill:#000000"
+             id="tspan16">ORDINARIE KOMMUNIKATIONSKANAL </tspan></tspan><tspan
+           x="38.835938"
+           y="134.14193"
+           id="tspan19"><tspan
+             dx="0 0 0 0 16.60428 0 0 0 0 0 0 0 0 16.604277"
+             style="fill:#000000"
+             id="tspan18">FÖR SAMTLIGA FUNKTIONER </tspan></tspan><tspan
+           x="38.835938"
+           y="143.45527"
+           id="tspan21"><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 2.7199831 0 0 0 0 0 0 0 0 0 0 2.7199831 0 0 0 0 0 2.7199831"
+             style="fill:#000000"
+             id="tspan20">(ÖPPNING, STÄNGNING, STOPP OCH </tspan></tspan><tspan
+           x="38.835938"
+           y="152.76861"
+           id="tspan23"><tspan
+             style="fill:#000000"
+             id="tspan22">UPPSTÄLLNING).</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

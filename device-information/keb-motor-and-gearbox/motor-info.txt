@@ -1,0 +1,12 @@
+Motor info
+Manufacturer: KEB
+Model number: G33C DM71K6 B02MB HR
+Model number explanation:
+Motor rpm (@ 50 Hz): 925
+Gear ratio: 177.27
+Shaft output rpm (@ motor 50 Hz): ~5.2
+
+G33C: KEB gearbox series and frame type.
+DM71K6: 3-phase AC motor (71 frame size, K stator length, 6-pole configuration).
+B02MB: Integrated COMBISTOP spring-applied holding brake 2.5 Nm torque rating at 105 VDC.
+HR: Manual Hand Release feature.

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="0.5.1" editnum="28">
+    <name>first</name>
+    <author>engineer</author>
+    <comment></comment>
+    <ports>
+        <port>
+            <maxconn>10</maxconn>
+            <host>192.168.52.3</host>
+            <baudRate>19200</baudRate>
+            <dataBits>8</dataBits>
+            <timeoutInterByte>50</timeoutInterByte>
+            <parity>Even</parity>
+            <port>502</port>
+            <stopBits>1</stopBits>
+            <type>TCP</type>
+            <flowControl>No</flowControl>
+            <timeout>3000</timeout>
+            <serialPortName>/dev/ttyUSB0</serialPortName>
+            <timeoutFirstByte>1000</timeoutFirstByte>
+            <name>CONTROLLINO TCP/IP</name>
+            <isBroadcastEnabled>true</isBroadcastEnabled>
+        </port>
+    </ports>
+    <devices>
+        <device>
+            <byteArrayFormat>Dec</byteArrayFormat>
+            <byteArraySeparator>\s</byteArraySeparator>
+            <funcWriteSingleCoil>83</funcWriteSingleCoil>
+            <funcWriteSingleRegister>99</funcWriteSingleRegister>
+            <maxReadCoils>2000</maxReadCoils>
+            <maxReadDiscreteInputs>2000</maxReadDiscreteInputs>
+            <maxReadHoldingRegisters>125</maxReadHoldingRegisters>
+            <maxReadInputRegisters>125</maxReadInputRegisters>
+            <maxWriteMultipleCoils>1968</maxWriteMultipleCoils>
+            <maxWriteMultipleRegisters>123</maxWriteMultipleRegisters>
+            <name>CONTROLLINO PLC</name>
+            <portName>CONTROLLINO TCP/IP</portName>
+            <registerOrder>R0R1R2R3</registerOrder>
+            <stringEncoding>UTF-8</stringEncoding>
+            <stringLengthType>ZeroEnded</stringLengthType>
+            <swapBytes>SwapNo</swapBytes>
+            <unit>1</unit>
+        </device>
+    </devices>
+    <dataviews>
+        <dataview name="dataView" period="1000">
+            <addressNotation>Default</addressNotation>
+            <useDefaultColumns>1</useDefaultColumns>
+            <columns>Device;Address;Format;Comment;Value;Period;Status;Timestamp</columns>
+            <enableProcessing>1</enableProcessing>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300001</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate status summary</comment>
+                <format>Bin16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>1010000001000110</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300001</address>
+                <byteArrayFormat>Bin</byteArrayFormat>
+                <byteArraySeparator>:</byteArraySeparator>
+                <comment>Gate status summary</comment>
+                <format>ByteArray</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>01000110:10100000</value>
+                <variableLength>2</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300001</address>
+                <byteArrayFormat>Hex</byteArrayFormat>
+                <byteArraySeparator>:</byteArraySeparator>
+                <comment>Gate status summary</comment>
+                <format>ByteArray</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>46:A0</value>
+                <variableLength>2</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300002</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>PLC input status</comment>
+                <format>Bin16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0000001101011101</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300003</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>PLC output status</comment>
+                <format>Bin16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0000000000000000</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300004</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>PLC output relay status</comment>
+                <format>Bin16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0000000000000000</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300005</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>VFD1 register ETA (VFD status)</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>2584</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300006</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>VFD2 register ETA (VFD status)</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300007</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>VFD1, value of requested register</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300008</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>VFD2, value of requested register</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300009</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 1 fault code</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>1</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>300010</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 2 fault code</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>2</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>400001</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate stay open countdown timer</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>400002</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Traffic counter</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>400003</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>DEBUG: VFD1 user requested register address</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>400004</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>DEBUG: VFD2 user requested register address</comment>
+                <format>Dec16</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>1</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 1: start cycle</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>2</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 1: stop</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>3</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 1: close</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>4</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 2: start cycle</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>5</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 2: stop</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>6</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Gate 2: close</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>7</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Close after pass</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>8</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>Reset faults</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+            <item>
+                <device>CONTROLLINO PLC</device>
+                <address>9</address>
+                <byteArrayFormat>DefaultDigitalFormat</byteArrayFormat>
+                <byteArraySeparator>\s</byteArraySeparator>
+                <comment>External light</comment>
+                <format>Bool</format>
+                <period>1000</period>
+                <registerOrder>DefaultRegisterOrder</registerOrder>
+                <stringEncoding>DefaultStringEncoding</stringEncoding>
+                <stringLengthType>DefaultStringLengthType</stringLengthType>
+                <swapBytes>DefaultSwapData</swapBytes>
+                <value>0</value>
+                <variableLength>20</variableLength>
+            </item>
+        </dataview>
+    </dataviews>
+    <windows>05000000766965773a00000000000000000000000000000000000000000c0000006461743a64617461566965770a00000000000000000000007a0600001a030000</windows>
+</project>

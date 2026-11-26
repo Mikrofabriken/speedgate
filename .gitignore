@@ -1,0 +1,5 @@
+# video files (potentially very large)
+*.mp4
+
+# directories with video files
+video
