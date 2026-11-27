@@ -11,27 +11,6 @@ Each door has a **target** (none / open / closed), which is set by Modbus TCP
 commands or the force open key box. A state machine per door moves the door
 towards its target.
 
-**REMOVE ASAP! Just test mermaid @ Github**
-```mermaid
-stateDiagram-v2
-    direction LR
-    IDLE --> PENDING_MOVE: target not reached
-    PENDING_MOVE --> OPENING: 5 s warning delay
-    PENDING_MOVE --> CLOSING: 5 s warning delay
-    OPENING --> STAY_OPEN: fully open (cycle)
-    OPENING --> IDLE: fully open
-    STAY_OPEN --> PENDING_MOVE: countdown 0 / object passed
-    CLOSING --> IDLE: fully closed
-    CLOSING --> WAIT_LIGHT_BARRIER: light barrier
-    WAIT_LIGHT_BARRIER --> PENDING_MOVE: clear for 30 s
-    OPENING --> RETRACTING: safety edge
-    CLOSING --> RETRACTING: safety edge
-    RETRACTING --> WAIT_AFTER_RETRACT
-    WAIT_AFTER_RETRACT --> PENDING_MOVE: 30 s
-    WAIT_AFTER_RETRACT --> FAULT: 3rd activation
-    FAULT --> IDLE: reset (coil 7)
-```
-
 ## Modbus RTU (VFDs)
 
 The two ATV320 drives (Modbus RTU address 1 and 2) share one RS485 bus. The PLC writes the command word (CMD) and speed reference (LFR) and reads
